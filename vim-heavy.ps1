@@ -1,0 +1,6 @@
+mv -force "$dir\temp-deps\ruby\x64-msvcrt-ruby200.dll" "$dir"
+mv -force "$dir\temp-deps\python35\python35.dll" "$dir"
+mv -force "$dir\temp-deps\python27\python27.dll" "$dir"
+mv -force "$dir\temp-deps\lua\lua52.dll" "$dir"
+mv -force "$dir\temp-deps\perl\perl518.dll" "$dir"
+rm -recurse -force "$dir\temp-deps"
