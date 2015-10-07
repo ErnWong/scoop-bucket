@@ -9,7 +9,14 @@ function ensure($path) {
 $dir = resolve-path "$psscriptroot\"
 $deps = resolve-path "$dir\_scoopinstall"
 
-mv -force "$deps\ruby\x64-msvcrt-ruby200.dll" "$dir"
+$is64 = [intptr]::size -eq 8
+
+if ($is64) {
+    mv -force "$deps\ruby\x64-msvcrt-ruby200.dll" "$dir"
+}
+else {
+    mv -force "$deps\ruby\msvcrt-ruby200.dll" "$dir"
+}
 mv -force "$deps\python35\python35.dll" "$dir"
 mv -force "$deps\python27\python27.dll" "$dir"
 mv -force "$deps\lua\lua52.dll" "$dir"
