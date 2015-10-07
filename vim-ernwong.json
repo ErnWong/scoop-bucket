@@ -96,5 +96,5 @@
     "installer": {
         "file": "_scoopinstall\\vim-ernwong.install.ps1"
     },
-    "notes": "Remember to:\n 1. hardlink AppData\Roaming\Vim\.vimrc and .gvimrc to your dotfiles.\n 2. Ignore step 1 and hardlink/junction your entire dotfiles\vim \n 3. Install plugins\n 4. Modify this json to remove ycm and llvm"
+    "notes": "Remember to:\n 1. hardlink AppData\\Roaming\\Vim\\.vimrc and .gvimrc to your dotfiles.\n 2. Ignore step 1 and hardlink/junction your entire dotfiles\\vim \n 3. Install plugins\n 4. Modify this json to remove ycm and llvm"
 }
