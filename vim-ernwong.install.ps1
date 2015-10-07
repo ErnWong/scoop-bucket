@@ -6,7 +6,7 @@ function ensure($path) {
 }
 #>
 
-$dir = resolve-path "$psscriptroot\.."
+$dir = resolve-path "$psscriptroot\"
 $deps = resolve-path "$dir\_scoopinstall"
 
 mv -force "$deps\ruby\x64-msvcrt-ruby200.dll" "$dir"
