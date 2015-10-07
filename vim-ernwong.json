@@ -38,7 +38,7 @@
                 "_scoopinstall\\python27",
                 "_scoopinstall\\lua",
                 "_scoopinstall\\perl",
-                "_scoopinstall\\"
+                ""
             ]
         },
         "64bit": {
@@ -76,13 +76,13 @@
                 "_scoopinstall\\python27",
                 "_scoopinstall\\lua",
                 "_scoopinstall\\perl",
-                "_scoopinstall\\"
+                ""
             ]
         }
     },
     "bin": [ "vim.exe", "gvim.exe" ],
     "installer": {
-        "file": "_scoopinstall\\vim-ernwong.install.ps1"
+        "file": "vim-ernwong.install.ps1"
     },
     "notes": "Remember to:\n 1. hardlink AppData\\Roaming\\Vim\\.vimrc and .gvimrc to your dotfiles.\n 2. Ignore step 1 and hardlink/junction your entire dotfiles\\vim \n 3. Install plugins"
 }
