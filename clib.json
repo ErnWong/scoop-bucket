@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/clibs/clib/",
+    "version": "1.4.2",
+    "license": "https://github.com/clibs/clib/blob/master/LICENSE",
+    "url": "http://humanitysucks.bitbucket.org/download/clib/clib-1.4.2.RC1-win32.7z",
+    "hash": "",
+    "extract_dir": "clib",
+    "bin": [
+        "clib.exe",
+        "clib-install.exe",
+        "clib-search.exe"
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/clibs/clib/master/package.json",
+        "re": "\"version\": \"([0-9\\.]+)\""
+    }
+}
