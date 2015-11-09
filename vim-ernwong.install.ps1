@@ -17,7 +17,7 @@ if ($is64) {
 else {
     mv -force "$deps\ruby\msvcrt-ruby200.dll" "$dir"
 }
-mv -force "$deps\python35\python35.dll" "$dir"
+mv -force "$deps\python34\python34.dll" "$dir"
 mv -force "$deps\python27\python27.dll" "$dir"
 mv -force "$deps\lua\lua52.dll" "$dir"
 mv -force "$deps\perl\perl518.dll" "$dir"
