@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/ErnWong/scoop-bucket/blob/master/vim-ernwong.md",
     "license": "http://vimdoc.sourceforge.net/htmldoc/uganda.html#license",
-    "version": "7.4.417.1",
+    "version": "7.4.417.2",
     "architecture": {
         "32bit": {
             "url": [
@@ -83,6 +83,5 @@
     "bin": [ "vim.exe", "gvim.exe" ],
     "installer": {
         "file": "vim-ernwong.install.ps1"
-    },
-    "notes": "Remember to:\n 1. hardlink AppData\\Roaming\\Vim\\.vimrc and .gvimrc to your dotfiles.\n 2. Ignore step 1 and hardlink/junction your entire dotfiles\\vim \n 3. Install plugins"
+    }
 }
