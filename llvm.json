@@ -1,0 +1,24 @@
+{
+    "homepage": "http://llvm.org/"
+    "license": "http://llvm.org/releases/3.7.0/LICENSE.TXT",
+    "version": "0.0.0",
+    "depends": ["7zip"],
+    "architecture": {
+        "32bit": {
+            "url": [
+                "http://llvm.org/releases/3.7.0/LLVM-3.7.0-win32.exe"
+                "https://raw.githubusercontent.com/ErnWong/scoop-bucket/master/llvm.install.ps1"
+            ]
+        },
+        "64bit": {
+            "url": [
+                "http://llvm.org/releases/3.7.0/LLVM-3.7.0-win64.exe"
+                "https://raw.githubusercontent.com/ErnWong/scoop-bucket/master/llvm.install.ps1"
+            ]
+        }
+    }
+    "env_add_path": "bin",
+    "installer": {
+        "file": "llvm.install.ps1"
+    }
+}
