@@ -1,7 +1,8 @@
 {
     "homepage": "https://github.com/ErnWong/scoop-bucket/blob/master/vim-ernwong.md",
     "license": "http://vimdoc.sourceforge.net/htmldoc/uganda.html#license",
-    "version": "7.4.417.2",
+    "version": "7.4.417.3",
+    "depends": "diffutils",
     "architecture": {
         "32bit": {
             "url": [
