@@ -16,7 +16,7 @@
                 "https://raw.githubusercontent.com/ErnWong/scoop-bucket/master/llvm.install.ps1"
             ]
         }
-    }
+    },
     "env_add_path": "bin",
     "installer": {
         "file": "llvm.install.ps1"
